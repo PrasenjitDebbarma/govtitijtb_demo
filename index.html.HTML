@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Industrial Training Institute (Govt. ITI), Jatanbari | Govt. of Tripura</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#16386e',
+                            900: '#0f2c59',
+                            950: '#091b38',
+                        },
+                        saffron: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+	<style>
+    @keyframes ticker-scroll {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .animate-ticker {
+        display: inline-flex;
+        white-space: nowrap;
+        animation: ticker-scroll 28s linear infinite;
+    }
+
+    .animate-ticker:hover {
+        animation-play-state: paused;
+    }
+	</style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-navy-900 selection:text-white">
+
+    <!-- Top Government Utility Bar -->
+    <div class="bg-navy-950 text-slate-200 text-xs border-b border-navy-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-1">
+                <span class="font-semibold text-amber-400 tracking-wide uppercase">Government of Tripura</span>
+                <span class="hidden sm:inline text-slate-500">|</span>
+                <span>Directorate of Industries & Commerce</span>
+                <span class="hidden md:inline text-slate-500">|</span>
+                <span class="hidden md:inline text-slate-300">ITI Code: <strong class="text-white">GR16000003</strong></span>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="tel:03821264286" class="hover:text-amber-400 transition flex items-center gap-1">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-amber-400"></i>
+                    <span>03821-295306</span>
+                </a>
+                <a href="mailto:itijatanbari@gmail.com" class="hover:text-amber-400 transition flex items-center gap-1">
+                    <i data-lucide="mail" class="w-3.5 h-3.5 text-amber-400"></i>
+                    <span>itijatanbari@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Institutional Main Header -->
+    <header class="bg-white border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-4">
+                <!-- Emblem & Institute Title -->
+                <div class="flex items-center gap-4 text-center sm:text-left">
+                    <!-- Custom Institutional SVG Emblem -->
+                    <div class="flex-shrink-0">
+                        <img src="logo.png"
+							alt="Government ITI Jatanbari Logo"
+							class="w-16 h-16 sm:w-20 sm:h-20 object-contain rounded-2xl bg-white p-1.5 shadow-md border-2 border-saffron-600">
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-50 text-saffron-700 border border-amber-200 mb-1">
+                            <span>NCVT / SCVT Affiliated</span>
+                            <span>•</span>
+                            <span>MSDE, Govt. of India</span>
+                        </div>
+                        <h1 class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-navy-900 tracking-tight leading-tight">
+                            Government Industrial Training Institute, Jatanbari
+                        </h1>
+                        <p class="text-xs sm:text-sm text-slate-600 font-medium mt-0.5">
+                            P.O. Jatanbari, Karbook, Gomati District, Tripura – 799104
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Side Badges (Skill India / CTS) -->
+                <div class="flex items-center gap-3 self-center lg:self-auto">
+                    <div class="px-3.5 py-2 rounded-xl bg-slate-50 border border-slate-200 text-center">
+                        <div class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Scheme</div>
+                        <div class="text-xs sm:text-sm font-bold text-navy-900">Craftsmen Training (CTS)</div>
+                    </div>
+                    <div class="px-3.5 py-2 rounded-xl bg-amber-50 border border-amber-200 text-center">
+                        <div class="text-[10px] font-bold uppercase tracking-wider text-saffron-700">Skill India</div>
+                        <div class="text-xs sm:text-sm font-bold text-navy-900">कौशल भारत - कुशल भारत</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Responsive Navigation Bar -->
+        <nav class="bg-navy-900 text-white sticky top-0 z-40 shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-12 sm:h-14">
+                    <!-- Desktop Nav Links -->
+                    <div class="hidden md:flex items-center space-x-1 lg:space-x-2">
+                        <a href="#home" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition">Home</a>
+                        <a href="#principal" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition">Principal's Message</a>
+                        <a href="#admission" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition">Trades & Admission</a>
+                        <a href="#staff" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition">Staff Directory</a>
+                        <a href="#notifications" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition flex items-center gap-1.5">
+                            <span>Notifications</span>
+                            <span class="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-saffron-600 text-white">NEW</span>
+                        </a>
+						<a href="#gallery" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition">Gallery</a>
+                        <a href="#contact" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-navy-800 hover:text-amber-400 transition">Contact</a>
+                    </div>
+
+                    <!-- Portal Action Button -->
+                    <div class="hidden md:flex items-center">
+                        <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-saffron-600 hover:bg-saffron-700 text-white text-xs font-semibold px-3.5 py-2 rounded-lg shadow transition">
+                            <span>Tripura ITI Admission Portal</span>
+                            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <div class="flex md:hidden items-center justify-between w-full">
+                        <span class="text-sm font-semibold text-amber-400">Navigation Menu</span>
+                        <button id="mobile-menu-btn" type="button" class="p-2 rounded-lg text-slate-200 hover:text-white hover:bg-navy-800 focus:outline-none" aria-label="Toggle Menu">
+                            <i data-lucide="menu" class="w-6 h-6"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Drawer -->
+            <div id="mobile-menu" class="hidden md:hidden bg-navy-950 border-t border-navy-800 px-4 pt-2 pb-4 space-y-1">
+                <a href="#home" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-navy-800">Home</a>
+                <a href="#principal" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-navy-800">Principal's Message</a>
+                <a href="#admission" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-navy-800">Trades & Admission</a>
+                <a href="#staff" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-navy-800">Staff Directory</a>
+                <a href="#notifications" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-navy-800">Notifications & Circulars</a>
+                <a href="#gallery" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-navy-800">Gallery</a>
+				<a href="#contact" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-200 hover:bg-navy-800">Contact & Location</a>
+                <div class="pt-2">
+                    <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="w-full inline-flex justify-center items-center gap-2 bg-saffron-600 text-white text-sm font-semibold px-4 py-2.5 rounded-lg">
+                        <span>Apply at itiadmission.tripura.gov.in</span>
+                        <i data-lucide="external-link" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Live Announcement Ticker -->
+    <div class="bg-amber-50 border-b border-amber-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center gap-3 overflow-hidden">
+            <span class="flex-shrink-0 inline-flex items-center gap-1 bg-saffron-600 text-white text-[11px] font-bold uppercase px-2.5 py-1 rounded-md shadow-sm">
+                <i data-lucide="megaphone" class="w-3.5 h-3.5"></i>
+                Latest Update
+            </span>
+            <div class="relative flex-1 overflow-hidden">
+            <div class="animate-ticker text-xs sm:text-sm font-medium text-navy-900">
+                <!-- Set 1 -->
+                <span class="mx-6">
+                    • Admissions for Academic Session 2026–27 under Craftsmen Training Scheme (CTS) are processed online via 
+                    <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="underline font-bold text-saffron-700 hover:text-navy-900">itiadmission.tripura.gov.in</a>.
+                </span>
+                <span class="mx-6">
+                    • Physical document verification helpdesk is open on all working days (10:30 AM – 4:30 PM) at Govt. ITI Jatanbari Admin Block.
+                </span>
+                <span class="mx-6">
+                    • NCVT AITT Practical & CBT Hall Tickets available for collection at the Examination Cell.
+                </span>
+
+                <!-- Set 2 (Duplicate for seamless loop) -->
+                <span class="mx-6">
+                    • Admissions for Academic Session 2026–27 under Craftsmen Training Scheme (CTS) are processed online via 
+                    <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="underline font-bold text-saffron-700 hover:text-navy-900">itiadmission.tripura.gov.in</a>.
+                </span>
+                <span class="mx-6">
+                    • Physical document verification helpdesk is open on all working days (10:30 AM – 4:30 PM) at Govt. ITI Jatanbari Admin Block.
+                </span>
+                <span class="mx-6">
+                    • NCVT AITT Practical & CBT Hall Tickets available for collection at the Examination Cell.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <!-- 2. HERO BANNER & QUICK STATS -->
+    <section id="home" class="relative bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 text-white overflow-hidden">
+        <!-- Subtle Geometric Grid Overlay -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 24px 24px;"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <!-- Hero Text -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-amber-300 text-xs font-semibold tracking-wide">
+                        <i data-lucide="award" class="w-4 h-4"></i>
+                        <span>Empowering Tripura's Youth with Technical Skills Since 1979</span>
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
+                        Building Skilled Professionals for <span class="text-amber-400">Modern Industry</span>
+                    </h2>
+                    <p class="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl">
+                        Government Industrial Training Institute, Jatanbari is a premier technical & vocational training institute in Gomati District, Tripura, offering NCVT & SCVT accredited trades with modern workshops and experienced faculty.
+                    </p>
+                    <div class="flex flex-wrap gap-3 pt-2">
+                        <a href="#admission" class="inline-flex items-center gap-2 bg-saffron-600 hover:bg-saffron-700 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg shadow-saffron-600/20 transition transform hover:-translate-y-0.5">
+                            <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                            <span>Admission 2026–27 Details</span>
+                        </a>
+                        <a href="#notifications" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/25 font-semibold px-6 py-3.5 rounded-xl backdrop-blur-sm transition">
+                            <i data-lucide="bell-ring" class="w-5 h-5 text-amber-400"></i>
+                            <span>Latest Notifications</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Quick Stats Bento Grid -->
+                <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+                    <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-5 hover:bg-white/15 transition">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center mb-3">
+                            <i data-lucide="landmark" class="w-5 h-5"></i>
+                        </div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">1979</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Year Established</div>
+                        <div class="text-[11px] text-amber-300 mt-0.5">45+ Years of Legacy</div>
+                    </div>
+
+                    <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-5 hover:bg-white/15 transition">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-3">
+                            <i data-lucide="users" class="w-5 h-5"></i>
+                        </div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">260</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Total Intake Capacity</div>
+                        <div class="text-[11px] text-emerald-300 mt-0.5">Sanctioned CTS Seats</div>
+                    </div>
+
+                    <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-5 hover:bg-white/15 transition">
+                        <div class="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center mb-3">
+                            <i data-lucide="wrench" class="w-5 h-5"></i>
+                        </div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">11</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium mt-1">Engineering & Non-Engg Trades</div>
+                        <div class="text-[11px] text-sky-300 mt-0.5">1-Year & 2-Year Courses</div>
+                    </div>
+
+                    <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-5 hover:bg-white/15 transition">
+                        <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center mb-3">
+                            <i data-lucide="shield-check" class="w-5 h-5"></i>
+                        </div>
+                        <div class="text-xl sm:text-2xl font-extrabold text-white">NCVT / SCVT</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium mt-1">National & State Certification</div>
+                        <div class="text-[11px] text-purple-300 mt-0.5">Code: GR16000003</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PRINCIPAL'S MESSAGE SECTION -->
+    <section id="principal" class="py-14 sm:py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-sm">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                    <!-- Portrait Card -->
+                    <div class="lg:col-span-4 flex flex-col items-center">
+                        <div class="w-full max-w-xs bg-white rounded-2xl border border-slate-200 shadow-md overflow-hidden">
+                            <div class="aspect-[4/4] bg-gradient-to-b from-navy-800 to-navy-950 relative flex flex-col items-center justify-center p-6 text-center">
+								<img src="principal.jpg" 
+									alt="Sri George Hrangkhawl, Principal" 
+									class="w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover object-top border-4 border-amber-400/80 mb-3 shadow-md">
+								<span class="px-3 py-1 rounded-full bg-saffron-600 text-white text-[11px] font-bold uppercase tracking-wider">
+										Head of Institution
+								</span>
+							</div>
+                            <div class="p-5 text-center bg-white">
+                                <h3 class="text-lg font-extrabold text-navy-900">Sri George Hrangkhawl</h3>
+                                <p class="text-sm font-semibold text-saffron-700">Principal (HoO & DDO)</p>
+                                <p class="text-xs text-slate-500 mt-1">Government ITI, Jatanbari<br>Gomati District, Tripura</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Message Content -->
+                    <div class="lg:col-span-8 space-y-5">
+                        <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-saffron-700 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full">
+                            <i data-lucide="quote" class="w-3.5 h-3.5"></i>
+                            <span>From the Principal's Desk</span>
+                        </div>
+                        <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-900 tracking-tight">
+                            Nurturing Technical Excellence, Discipline & Industry Readiness
+                        </h2>
+                        <div class="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed">
+                            <p>
+                                Welcome to <strong>Government Industrial Training Institute, Jatanbari</strong>. Established in 1979 under the Directorate of Industries & Commerce, Government of Tripura, our institution has been dedicated to transforming aspiring youth of Gomati District and across Tripura into skilled, self-reliant technicians and entrepreneurs.
+                            </p>
+                            <p>
+                                Under the <strong>Craftsmen Training Scheme (CTS)</strong> aligned with NCVT and SCVT standards, we place strong emphasis on practical, hands-on workshop training, safety practices, digital literacy, and employability skills. Our curriculum is continuously updated to bridge the gap between classroom theory and evolving industrial requirements.
+                            </p>
+                            <p>
+                                I encourage all prospective trainees to make the fullest use of our dedicated faculty, equipped laboratories, and apprenticeship placement support to build a rewarding technical career.
+                            </p>
+                        </div>
+                        <div class="pt-3 border-t border-slate-200 flex flex-wrap items-center justify-between gap-4">
+                            <div>
+                                <div class="font-bold text-navy-900 text-base">Sri George Hrangkhawl</div>
+                                <div class="text-xs text-slate-500">Principal, Govt. ITI Jatanbari (Code: GR16000003)</div>
+                            </div>
+                            <a href="#admission" class="inline-flex items-center gap-1.5 text-sm font-semibold text-navy-900 hover:text-saffron-700 transition">
+                                <span>Explore Available Trades</span>
+                                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ADMISSION DETAILS & TRADES OFFERED -->
+    <section id="admission" class="py-14 sm:py-20 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-navy-900 text-amber-400">
+                    Academics & Admissions 2026–27
+                </span>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-navy-900">
+                    Trades Offered & Admission Guidelines
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base">
+                    Admissions are conducted centrally on a merit basis through the Government of Tripura online admission portal. Total sanctioned intake capacity: <strong>260 Seats</strong>.
+                </p>
+            </div>
+
+            <!-- Trades Filter & Search Controls -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+                <div class="p-5 sm:p-6 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-slate-50/70">
+                    <div>
+                        <h3 class="text-lg font-bold text-navy-900 flex items-center gap-2">
+                            <i data-lucide="layers" class="w-5 h-5 text-saffron-600"></i>
+                            <span>Approved CTS Trades (11 Trades)</span>
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Filter trades by minimum qualification or course duration</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2" id="trade-filters">
+                        <button data-filter="all" class="trade-filter-btn active px-3.5 py-2 rounded-xl text-xs font-semibold bg-navy-900 text-white transition">All Trades (11)</button>
+                        <button data-filter="10th" class="trade-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">10th Pass</button>
+                        <button data-filter="8th" class="trade-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">8th Pass</button>
+                        <button data-filter="2-Year" class="trade-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">2-Year Duration</button>
+                        <button data-filter="1-Year" class="trade-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">1-Year Duration</button>
+                    </div>
+                </div>
+
+                <!-- Responsive Trades Table -->
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-navy-900 text-white text-xs uppercase tracking-wider">
+                                <th class="py-3.5 px-4 sm:px-6 font-semibold">Sl.</th>
+                                <th class="py-3.5 px-4 sm:px-6 font-semibold">Trade Name</th>
+                                <th class="py-3.5 px-4 sm:px-6 font-semibold">Category</th>
+                                <th class="py-3.5 px-4 sm:px-6 font-semibold">Duration</th>
+                                <th class="py-3.5 px-4 sm:px-6 font-semibold">Minimum Eligibility</th>
+                                <th class="py-3.5 px-4 sm:px-6 font-semibold">Affiliation</th>
+                            </tr>
+                        </thead>
+                        <tbody id="trades-table-body" class="divide-y divide-slate-200 text-sm">
+                            <!-- Populated via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Admission Process & Interactive Documents Checklist Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                
+                <!-- Left: Step-by-Step Admission Process & Key Rules -->
+                <div class="lg:col-span-7 bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+                    <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                        <h3 class="text-xl font-extrabold text-navy-900 flex items-center gap-2">
+                            <i data-lucide="clipboard-list" class="w-5 h-5 text-saffron-600"></i>
+                            <span>Admission Process & Eligibility</span>
+                        </h3>
+                        <span class="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold">
+                            Merit-Based Selection
+                        </span>
+                    </div>
+
+                    <!-- Key Highlights Pills -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs text-slate-500 font-medium">Minimum Age</div>
+                            <div class="text-base font-extrabold text-navy-900 mt-0.5">14 Years</div>
+                            <div class="text-[11px] text-slate-500">No upper age bar</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs text-slate-500 font-medium">Caution Money</div>
+                            <div class="text-base font-extrabold text-navy-900 mt-0.5">₹ 1,000/-</div>
+                            <div class="text-[11px] text-emerald-600 font-medium">100% Refundable</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs text-slate-500 font-medium">Domicile</div>
+                            <div class="text-base font-extrabold text-navy-900 mt-0.5">Tripura PRTC</div>
+                            <div class="text-[11px] text-slate-500">Mandatory for State Quota</div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Steps -->
+                    <div class="space-y-4">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-navy-900 text-amber-400 font-bold text-sm flex items-center justify-center">1</div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm sm:text-base">Online Registration & Choice Filling</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                                    Visit <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="text-saffron-700 font-semibold underline">itiadmission.tripura.gov.in</a>, register with mobile/Aadhaar, upload scanned documents, and select <strong>Govt. ITI Jatanbari</strong> along with preferred trades.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-navy-900 text-amber-400 font-bold text-sm flex items-center justify-center">2</div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm sm:text-base">Physical Document Verification</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                                    Report to the nearest Government ITI verification center (including Govt. ITI Jatanbari) with all original certificates and photocopies within the stipulated schedule.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-navy-900 text-amber-400 font-bold text-sm flex items-center justify-center">3</div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm sm:text-base">Merit List Publication & Seat Allotment</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                                    Common Merit List is generated based on qualifying exam marks (8th/10th) and state reservation norms (ST/SC/OBC/PWD/Ex-Servicemen/Women).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-navy-900 text-amber-400 font-bold text-sm flex items-center justify-center">4</div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm sm:text-base">Final Reporting & Caution Money Deposit</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                                    Download allotment letter and report to Govt. ITI Jatanbari with <strong>₹1,000 refundable caution money</strong> and Medical Fitness Certificate to confirm admission.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Interactive Document Checklist -->
+                <div class="lg:col-span-5 bg-navy-900 text-white rounded-2xl p-6 sm:p-8 shadow-md flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between border-b border-navy-800 pb-4">
+                            <div>
+                                <h3 class="text-lg sm:text-xl font-extrabold text-white flex items-center gap-2">
+                                    <i data-lucide="file-check-2" class="w-5 h-5 text-amber-400"></i>
+                                    <span>Required Documents</span>
+                                </h3>
+                                <p class="text-xs text-slate-300 mt-0.5">Tap items to check off your readiness</p>
+                            </div>
+                            <span id="doc-progress-badge" class="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold border border-amber-400/30">
+                                0 / 6 Ready
+                            </span>
+                        </div>
+
+                        <ul id="document-checklist" class="space-y-2.5 text-sm">
+                            <!-- Interactive Checklist Items rendered via JS -->
+                        </ul>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-navy-800 flex items-center justify-between gap-3">
+                        <button id="reset-checklist-btn" type="button" class="text-xs text-slate-300 hover:text-white underline">
+                            Reset Checklist
+                        </button>
+                        <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-saffron-600 hover:bg-saffron-700 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition">
+                            <span>Proceed to Apply</span>
+                            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. STAFF DIRECTORY SECTION -->
+    <section id="staff" class="py-14 sm:py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                <div class="space-y-2">
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-50 text-saffron-700 border border-amber-200">
+                        Faculty & Administration
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-900">
+                        Institute Staff Directory
+                    </h2>
+                    <p class="text-slate-600 text-sm max-w-2xl">
+                        Dedicated administrative officers, group instructors, and trade instructors guiding trainees at Govt. ITI Jatanbari.
+                    </p>
+                </div>
+
+                <!-- Search Input -->
+                <div class="relative w-full md:w-72">
+                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+                    <input type="text" id="staff-search" placeholder="Search name, trade, role..." class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy-900 focus:border-navy-900">
+                </div>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="flex flex-wrap items-center justify-between gap-4">
+                <div class="flex flex-wrap gap-2" id="staff-filters">
+                    <button data-category="All" class="staff-filter-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-navy-900 text-white transition">All Staff</button>
+                    <button data-category="Administration" class="staff-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Administration</button>
+					<button data-category="Accounts" class="staff-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Accounts</button>
+					<button data-category="Store" class="staff-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Store</button>
+                    <button data-category="Technical Staffs" class="staff-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Technical Staffs</button>
+                    <button data-category="Multi-Tasking Staff" class="staff-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Multi-Tasking Staffs</button>
+                </div>
+
+                <div class="text-xs text-slate-500 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg flex items-center gap-1.5">
+                    <i data-lucide="info" class="w-3.5 h-3.5 text-saffron-600 flex-shrink-0"></i>
+                    <span>Note: Representative sample faculty & staff roster shown; records can be updated by the Institute Admin.</span>
+                </div>
+            </div>
+
+            <!-- Staff Cards Grid -->
+            <div id="staff-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                <!-- Populated dynamically via JS -->
+            </div>
+
+            <!-- Empty State for Staff Search -->
+            <div id="staff-empty" class="hidden text-center py-12 bg-slate-50 rounded-2xl border border-dashed border-slate-300">
+                <i data-lucide="user-x" class="w-10 h-10 text-slate-400 mx-auto mb-2"></i>
+                <p class="text-sm font-semibold text-slate-700">No matching staff records found.</p>
+                <p class="text-xs text-slate-500 mt-1">Try clearing your search term or selecting "All Staff".</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. LIVE NOTIFICATIONS & NOTICE BOARD -->
+    <section id="notifications" class="py-14 sm:py-20 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
+                <div class="space-y-2">
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-navy-900 text-amber-400">
+                        Official Bulletin
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-900">
+                        Notifications, Exam Circulars & Tenders
+                    </h2>
+                    <p class="text-slate-600 text-sm">
+                        Click any notice to read the full official circular and download/print details.
+                    </p>
+                </div>
+
+                <!-- Admin Preview Toggle Button -->
+                <div class="flex items-center gap-3">
+                    <button id="toggle-admin-notice-btn" type="button" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white border border-slate-300 hover:border-navy-900 text-navy-900 text-xs font-bold shadow-sm transition">
+                        <i data-lucide="plus-circle" class="w-4 h-4 text-saffron-600"></i>
+                        <span>+ Add Notice (Admin Preview)</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Collapsible Add Notice Form (Admin Preview Mode) -->
+            <div id="admin-notice-panel" class="hidden bg-white border-2 border-saffron-500/50 rounded-2xl p-6 shadow-md">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-base font-extrabold text-navy-900 flex items-center gap-2">
+                        <i data-lucide="shield-alert" class="w-5 h-5 text-saffron-600"></i>
+                        <span>Publish New Notification (Live Preview Mode)</span>
+                    </h3>
+                    <button id="close-admin-panel-btn" type="button" class="text-slate-400 hover:text-slate-700">
+                        <i data-lucide="x" class="w-5 h-5"></i>
+                    </button>
+                </div>
+                <form id="add-notice-form" class="grid grid-cols-1 md:grid-cols-12 gap-4">
+                    <div class="md:col-span-5">
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Notice Title *</label>
+                        <input type="text" id="notice-title-input" required placeholder="e.g., 2nd Round Spot Counseling Schedule 2026" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy-900">
+                    </div>
+                    <div class="md:col-span-3">
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Category *</label>
+                        <select id="notice-category-input" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy-900 bg-white">
+                            <option value="Admission">Admission</option>
+                            <option value="Exam & Results">Exam & Results</option>
+                            <option value="Tenders/Circulars">Tenders/Circulars</option>
+                        </select>
+                    </div>
+                    <div class="md:col-span-4">
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Reference / Memo No.</label>
+                        <input type="text" id="notice-ref-input" placeholder="e.g., No.F.12(4)/ITI-JTB/2026/412" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy-900">
+                    </div>
+                    <div class="md:col-span-9">
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Detailed Circular Content *</label>
+                        <textarea id="notice-body-input" rows="2" required placeholder="Enter full announcement text..." class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy-900"></textarea>
+                    </div>
+                    <div class="md:col-span-3 flex items-end">
+                        <button type="submit" class="w-full bg-navy-900 hover:bg-navy-800 text-white font-bold text-sm py-2.5 px-4 rounded-xl shadow transition">
+                            Publish Notice
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Notice Board Container -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+                <!-- Filter Tabs -->
+                <div class="p-4 sm:p-5 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-3">
+                    <div class="flex flex-wrap gap-2" id="notice-filters">
+                        <button data-notice-cat="All" class="notice-filter-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-navy-900 text-white transition">All Notices</button>
+                        <button data-notice-cat="Admission" class="notice-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">Admission</button>
+                        <button data-notice-cat="Exam & Results" class="notice-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">Exam & Results</button>
+                        <button data-notice-cat="Tenders/Circulars" class="notice-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition">Tenders/Circulars</button>
+                    </div>
+                    <span id="notice-count-label" class="text-xs font-semibold text-slate-500">Showing 6 notices</span>
+                </div>
+
+                <!-- Notice List -->
+                <div id="notices-list" class="divide-y divide-slate-200">
+                    <!-- Populated via JS -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+	
+	<!-- 6.5 PHOTO GALLERY SECTION -->
+    <section id="gallery" class="py-14 sm:py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                <div class="space-y-2">
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-50 text-saffron-700 border border-amber-200">
+                        Campus & Activities
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-900">
+                        Photo Gallery
+                    </h2>
+                    <p class="text-slate-600 text-sm max-w-2xl">
+                        Glimpses of practical workshop training, campus infrastructure, Vishwakarma Puja, and technical events at Govt. ITI Jatanbari.
+                    </p>
+                </div>
+
+                <!-- Category Filter Pills -->
+                <div class="flex flex-wrap gap-2" id="gallery-filters">
+                    <button data-gallery-cat="All" class="gallery-filter-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-navy-900 text-white transition">All Photos</button>
+                    <button data-gallery-cat="Workshops" class="gallery-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Workshops & Labs</button>
+                    <button data-gallery-cat="Events" class="gallery-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Events & Celebrations</button>
+                    <button data-gallery-cat="Campus" class="gallery-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Campus</button>
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Populated dynamically via JS -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Full-Screen Photo Lightbox Modal -->
+    <div id="gallery-lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/90 backdrop-blur-sm p-4">
+        <div class="relative max-w-4xl w-full bg-navy-950 rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
+            <button id="close-lightbox-btn" type="button" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-black/60 text-white hover:bg-saffron-600 flex items-center justify-center transition">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+            <img id="lightbox-img" src="" alt="" class="w-full max-h-[75vh] object-contain bg-black">
+            <div class="p-4 sm:p-5 bg-navy-900 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <div>
+                    <h3 id="lightbox-title" class="font-bold text-base">Photo Title</h3>
+                    <p id="lightbox-desc" class="text-xs text-slate-300 mt-0.5">Description</p>
+                </div>
+                <span id="lightbox-cat" class="self-start sm:self-center px-3 py-1 rounded-full text-xs font-bold bg-saffron-600 text-white">Category</span>
+            </div>
+        </div>
+    </div>
+	
+    <!-- 7. FOOTER & CAMPUS LOCATION -->
+    <footer id="contact" class="bg-navy-950 text-slate-300">
+        <!-- Contact & Campus Map Banner -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-12 border-b border-navy-800">
+                
+                <!-- Col 1: Institute Identity -->
+                <div class="lg:col-span-4 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-11 h-11 rounded-xl bg-navy-900 border border-saffron-600 flex items-center justify-center text-amber-400 font-extrabold text-sm">
+                            ITI
+                        </div>
+                        <div>
+                            <h3 class="text-base font-extrabold text-white leading-snug">Government ITI, Jatanbari</h3>
+                            <p class="text-xs text-amber-400">Directorate of Industries & Commerce, Tripura</p>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Committed to imparting industry-relevant vocational training under the Craftsmen Training Scheme (CTS) since 1979. Affiliated to NCVT (MSDE, Govt. of India) & SCVT Tripura.
+                    </p>
+                    <div class="inline-block px-3 py-1.5 rounded-lg bg-navy-900 border border-navy-800 text-xs font-mono text-amber-300">
+                        MIS / NCVT Code: GR16000003
+                    </div>
+                </div>
+
+                <!-- Col 2: Campus Address & Hours -->
+                <div class="lg:col-span-4 space-y-4">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Campus Address & Office Hours</h4>
+                    <ul class="space-y-3 text-xs sm:text-sm">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5"></i>
+                            <span>
+                                <strong>Government Industrial Training Institute</strong><br>
+                                P.O. Jatanbari, Karbook,<br>
+                                Gomati District, Tripura – 799104
+                            </span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="phone-call" class="w-4 h-4 text-amber-400 flex-shrink-0"></i>
+                            <span>03821-295306</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="mail" class="w-4 h-4 text-amber-400 flex-shrink-0"></i>
+                            <a href="mailto:itijatanbari@gmail.com" class="hover:text-amber-400 transition">itijatanbari@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="clock" class="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5"></i>
+                            <span>
+                                <strong>Office & Training Hours:</strong><br>
+                                Monday – Friday: 09:30 AM – 06:00 PM<br>
+                                <span class="text-slate-400 text-xs">(Closed on Sundays & Govt. Holidays)</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Important Government Portals & Quick Links -->
+                <div class="lg:col-span-4 space-y-4">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Important Portals & Links</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li>
+                            <a href="https://itiadmission.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2.5 rounded-xl bg-navy-900/80 hover:bg-navy-800 border border-navy-800 transition group">
+                                <span>Tripura ITI Online Admission Portal</span>
+                                <i data-lucide="external-link" class="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.skillindiadigital.gov.in" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2.5 rounded-xl bg-navy-900/80 hover:bg-navy-800 border border-navy-800 transition group">
+                                <span>Skill India Digital</span>
+                                <i data-lucide="external-link" class="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://industries.tripura.gov.in" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2.5 rounded-xl bg-navy-900/80 hover:bg-navy-800 border border-navy-800 transition group">
+                                <span>Directorate of Industries & Commerce, Tripura</span>
+                                <i data-lucide="external-link" class="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.apprenticeshipindia.gov.in" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2.5 rounded-xl bg-navy-900/80 hover:bg-navy-800 border border-navy-800 transition group">
+                                <span>National Apprenticeship Promotion Scheme (NAPS)</span>
+                                <i data-lucide="external-link" class="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright Bar -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+                <p>© 2026 Government Industrial Training Institute, Jatanbari, Gomati District, Tripura. All Rights Reserved.</p>
+                <div class="flex items-center gap-4">
+                    <a href="#home" class="hover:text-white transition">Back to Top ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notice Detail Modal -->
+    <div id="notice-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/70 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full shadow-2xl border border-slate-200 overflow-hidden animate-fade-in">
+            <div class="bg-navy-900 text-white px-6 py-4 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="file-text" class="w-5 h-5 text-amber-400"></i>
+                    <span class="font-bold text-sm uppercase tracking-wider">Official Circular / Notification</span>
+                </div>
+                <button id="close-modal-btn" type="button" class="text-slate-300 hover:text-white p-1 rounded-lg">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <div class="p-6 sm:p-8 space-y-4">
+                <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+                    <span id="modal-category-badge" class="px-2.5 py-1 rounded-full font-bold bg-amber-100 text-saffron-700">Admission</span>
+                    <span id="modal-date" class="text-slate-500 font-medium">Date: --</span>
+                </div>
+                <div class="text-xs font-mono text-slate-500 bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200" id="modal-ref">
+                    Memo No: --
+                </div>
+                <h3 id="modal-title" class="text-xl font-extrabold text-navy-900 leading-snug">
+                    Notice Title
+                </h3>
+                <div id="modal-body" class="text-sm text-slate-700 leading-relaxed whitespace-pre-line border-t border-slate-100 pt-4">
+                    Notice content goes here.
+                </div>
+                <div class="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+                    <div class="text-xs text-slate-500">
+                        Issued by: <strong>Principal, Govt. ITI Jatanbari</strong>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <button onclick="window.print()" type="button" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-slate-300 text-xs font-bold text-slate-700 hover:bg-slate-50 transition">
+                            <i data-lucide="printer" class="w-4 h-4"></i>
+                            <span>Print Notice</span>
+                        </button>
+                        <button id="modal-done-btn" type="button" class="px-4 py-2 rounded-xl bg-navy-900 text-white text-xs font-bold hover:bg-navy-800 transition">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic for Interactivity -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // ---------------------------------------------------------
+        // 1. MOBILE NAVIGATION TOGGLE
+        // ---------------------------------------------------------
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // ---------------------------------------------------------
+        // 2. TRADES OFFERED DATA & FILTERING
+        // ---------------------------------------------------------
+        const tradesData = [
+            { id: 1, name: "Electrician", category: "Engineering", duration: "2-Year", eligibility: "10th Pass (with Science & Maths)", affiliation: "NCVT" },
+            { id: 2, name: "Fitter", category: "Engineering", duration: "2-Year", eligibility: "10th Pass (with Science & Maths)", affiliation: "NCVT" },
+            { id: 3, name: "Draughtsman (Civil)", category: "Engineering", duration: "2-Year", eligibility: "10th Pass (with Science & Maths)", affiliation: "NCVT" },
+            { id: 4, name: "Electronics Mechanic", category: "Engineering", duration: "2-Year", eligibility: "10th Pass (with Science & Maths)", affiliation: "NCVT" },
+            { id: 5, name: "Information & Communication Technology System Maintenance (ICTSM)", category: "Engineering", duration: "2-Year", eligibility: "10th Pass", affiliation: "NCVT" },
+            { id: 6, name: "Computer Operator and Programming Assistant (COPA)", category: "Non-Engineering", duration: "1-Year", eligibility: "10th Pass", affiliation: "NCVT" },
+            { id: 7, name: "Stenographer & Secretarial Assistant (English)", category: "Non-Engineering", duration: "1-Year", eligibility: "10th Pass", affiliation: "NCVT" },
+            { id: 8, name: "Carpenter", category: "Engineering", duration: "1-Year", eligibility: "8th Pass", affiliation: "NCVT" },
+            { id: 9, name: "Surveyor", category: "Engineering", duration: "2-Year", eligibility: "10th Pass (with Science & Maths)", affiliation: "NCVT" },
+            { id: 10, name: "Wireman", category: "Engineering", duration: "2-Year", eligibility: "8th Pass", affiliation: "NCVT" }
+        ];
+
+        const tradesTableBody = document.getElementById('trades-table-body');
+        const tradeFilterBtns = document.querySelectorAll('.trade-filter-btn');
+
+        function renderTrades(filter = 'all') {
+            tradesTableBody.innerHTML = '';
+            const filtered = tradesData.filter(trade => {
+                if (filter === 'all') return true;
+                if (filter === '10th') return trade.eligibility.includes('10th');
+                if (filter === '8th') return trade.eligibility.includes('8th');
+                if (filter === '2-Year') return trade.duration === '2-Year';
+                if (filter === '1-Year') return trade.duration === '1-Year';
+                return true;
+            });
+
+            filtered.forEach((trade, idx) => {
+                const isEighth = trade.eligibility.includes('8th');
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-amber-50/40 transition';
+                row.innerHTML = `
+                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-500">${idx + 1}</td>
+                    <td class="py-3.5 px-4 sm:px-6 font-bold text-navy-900">${trade.name}</td>
+                    <td class="py-3.5 px-4 sm:px-6">
+                        <span class="inline-flex px-2.5 py-0.5 rounded-md text-xs font-medium ${trade.category === 'Engineering' ? 'bg-sky-50 text-sky-700 border border-sky-200' : 'bg-purple-50 text-purple-700 border border-purple-200'}">
+                            ${trade.category}
+                        </span>
+                    </td>
+                    <td class="py-3.5 px-4 sm:px-6 font-semibold text-slate-700">${trade.duration}</td>
+                    <td class="py-3.5 px-4 sm:px-6">
+                        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold ${isEighth ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' : 'bg-slate-100 text-slate-700'}">
+                            ${trade.eligibility}
+                        </span>
+                    </td>
+                    <td class="py-3.5 px-4 sm:px-6">
+                        <span class="inline-flex px-2.5 py-0.5 rounded-md text-xs font-bold bg-amber-50 text-saffron-700 border border-amber-200">
+                            ${trade.affiliation}
+                        </span>
+                    </td>
+                `;
+                tradesTableBody.appendChild(row);
+            });
+        }
+
+        tradeFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tradeFilterBtns.forEach(b => {
+                    b.classList.remove('active', 'bg-navy-900', 'text-white');
+                    b.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+                });
+                btn.classList.add('active', 'bg-navy-900', 'text-white');
+                btn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+                renderTrades(btn.dataset.filter);
+            });
+        });
+
+        renderTrades('all');
+
+        // ---------------------------------------------------------
+        // 3. INTERACTIVE DOCUMENT CHECKLIST
+        // ---------------------------------------------------------
+        const requiredDocs = [
+            "8th / 10th Board Examination Marksheet & Pass Certificate",
+            "Permanent Resident of Tripura Certificate (PRTC)",
+            "Age Proof (Birth Certificate or Madhyamik Admit Card)",
+            "Caste / Tribe Certificate (ST / SC / OBC) or PWD Certificate (if applicable)",
+            "Aadhaar Card (Linked with active mobile number)",
+            "Passport Size Recent Color Photographs (2 Copies)"
+        ];
+
+        const checklistContainer = document.getElementById('document-checklist');
+        const docProgressBadge = document.getElementById('doc-progress-badge');
+        const resetChecklistBtn = document.getElementById('reset-checklist-btn');
+        let checkedDocs = new Set();
+
+        function renderChecklist() {
+            checklistContainer.innerHTML = '';
+            requiredDocs.forEach((doc, index) => {
+                const isChecked = checkedDocs.has(index);
+                const li = document.createElement('li');
+                li.className = `p-3 rounded-xl border cursor-pointer transition flex items-start gap-3 select-none ${
+                    isChecked 
+                    ? 'bg-emerald-950/60 border-emerald-500/50 text-emerald-100' 
+                    : 'bg-navy-800/70 border-navy-700 hover:border-amber-400/50 text-slate-200'
+                }`;
+                li.innerHTML = `
+                    <div class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-md flex items-center justify-center border ${
+                        isChecked ? 'bg-emerald-500 border-emerald-500 text-white' : 'border-slate-400'
+                    }">
+                        ${isChecked ? '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>' : ''}
+                    </div>
+                    <span class="text-xs sm:text-sm leading-snug ${isChecked ? 'line-through opacity-80' : ''}">${doc}</span>
+                `;
+                li.addEventListener('click', () => {
+                    if (checkedDocs.has(index)) {
+                        checkedDocs.delete(index);
+                    } else {
+                        checkedDocs.add(index);
+                    }
+                    renderChecklist();
+                });
+                checklistContainer.appendChild(li);
+            });
+            docProgressBadge.textContent = `${checkedDocs.size} / ${requiredDocs.length} Ready`;
+        }
+
+        resetChecklistBtn.addEventListener('click', () => {
+            checkedDocs.clear();
+            renderChecklist();
+        });
+
+        renderChecklist();
+
+        // ---------------------------------------------------------
+        // 4. STAFF DIRECTORY DATA, SEARCH & FILTER
+        // ---------------------------------------------------------
+        const staffData = [
+            { name: "Sri Arun Acharjee", designation: "Senior Instructor (Mech.)", department: "Fitter Trade", qualification: "Diploma in Mech. Engg. / CITS", category: "Technical Staffs", image:"staff/arun.jpg"},
+            { name: "Sri Nirmal Das", designation: "Senior Instructor (Electrical)", department: "Electrician Trade", qualification: "Diploma in Electrical Engg. / CITS", category: "Technical Staffs", image:"staff/images.png"},
+            { name: "Sri Prasenjit Debbarma", designation: "Senior Instructor (COPA)", department: "COPA Trade", qualification: "MCA / CITS (CSA)", category: "Technical Staffs", image:"staff/prasenjit.jpg" },
+			{ name: "Md. Sahajahan", designation: "Senior Instructor (ICTSM)", department: "ICTSM Trade", qualification: "MCA / CITS (CSA)", category: "Technical Staffs" },
+            { name: "Sri Biplab Dey", designation: "Senior Instructor (Mech.)", department: "Fitter Trade", qualification: "NTC / NAC / CITS (Fitter)", category: "Technical Staffs" },
+            { name: "Sri Narayan Debnath", designation: "Senior Instructor (Civil)", department: "Draughtsman (Civil) Trade", qualification: "Diploma in Civil Engg. / CITS", category: "Technical Staffs" },
+			{ name: "Sri Ripan Naha", designation: "Senior Instructor (Civil)", department: "Surveyor Trade", qualification: "Diploma in Civil Engg. / CITS", category: "Technical Staffs" },
+            { name: "Sri Mridulendu Das", designation: "Senior Instructor (Electronics)", department: "Electronics Mechanic Trade", qualification: "B.E. (ECE) / CITS", category: "Technical Staffs", image:"staff/MRIDULENDU.jpeg" },
+            { name: "Sri Rathindra Murasing", designation: "Senior Instructor (Mech.)", department: "Welder Trade", qualification: "NTC / CITS (Wireman)", category: "Technical Staffs" },
+            { name: "Sri Kishore Jamatia", designation: "Senior Instructor (Electrical)", department: "Wireman Trade", qualification: "NTC / CITS (Carpenter)", category: "Technical Staffs" },
+            { name: "Smt. Anuva Sukla Das", designation: "Senior Instructor (Stenography)", department: "Stenography & Secretarial Asst. (English)", qualification: "Graduate / CITS (Steno Eng.)", category: "Technical Staffs" },
+            { name: "Sri Birulal Debbarma", designation: "Senior Instructor (WC&ED)", department: "WC&ED", qualification: "Diploma in Civil Engg. / CITS", category: "Technical Staffs" },
+			{ name: "Sri Hamon Uchoi", designation: "Senior Instructor (Mech.)", department: "Welder Trade", qualification: "Diploma in Civil Engg. / CITS", category: "Technical Staffs" },
+			{ name: "Sri Ignesh Uchoi", designation: "Senior Instructor (Mech.)", department: "Wood Work Technician Trade", qualification: "Diploma in Civil Engg. / CITS", category: "Technical Staffs" },
+			{ name: "Sri Anu Das", designation: "Surveyor", department: "NA", qualification: "Diploma in Civil Engg. / CITS", category: "Technical Staffs" },
+			{ name: "Sri Santanjoy Reang", designation: "Jr. Operator (CR)", department: "Cash Section", qualification: "Diploma in Civil Engg. / CITS", category: "Accounts" },
+			{ name: "Sri Krishna Mohan Chakma", designation: "Store Keeper", department: "Store Section", qualification: "Diploma in Civil Engg. / CITS", category: "Store" },
+			{ name: "Sri Amal Das", designation: "Upper Division Clerk", department: "Establishment Section", qualification: "B.Com", category: "Administration" },
+			{ name: "Sri Hemendra Adhikari", designation: "Upper Division Clerk", department: "Establishment Section", qualification: "B.Com", category: "Administration" },
+			{ name: "Sri Uttam Das", designation: "Accountant", department: "Accounts Section", qualification: "B.Com", category: "Accounts" },
+            { name: "Sri Dharendra Reang", designation: "Lower Division Clerk", department: "Establishment Section", qualification: "B.Com", category: "Administration" },
+			{ name: "Sri Ajit Debbarma", designation: "Grp-D", department: "NA", qualification: "ITI Certified", category: "Multi-Tasking Staff" },
+			{ name: "Smt. Ratna Das", designation: "Grp-D", department: "NA", qualification: "ITI Certified", category: "Multi-Tasking Staff" },
+			{ name: "Smt. Ratneswari Das", designation: "Grp-D", department: "NA", qualification: "ITI Certified", category: "Multi-Tasking Staff" },
+			{ name: "Smt. Fulkumari Chakma", designation: "Grp-D", department: "NA", qualification: "ITI Certified", category: "Multi-Tasking Staff" },
+        ];
+
+        const staffGrid = document.getElementById('staff-grid');
+        const staffEmpty = document.getElementById('staff-empty');
+        const staffSearch = document.getElementById('staff-search');
+        const staffFilterBtns = document.querySelectorAll('.staff-filter-btn');
+        let activeStaffCategory = 'All';
+
+        function renderStaff() {
+            const query = staffSearch.value.trim().toLowerCase();
+            const filtered = staffData.filter(person => {
+                const matchesCat = activeStaffCategory === 'All' || person.category === activeStaffCategory;
+                const matchesQuery = !query || 
+                    person.name.toLowerCase().includes(query) ||
+                    person.designation.toLowerCase().includes(query) ||
+                    person.department.toLowerCase().includes(query);
+                return matchesCat && matchesQuery;
+            });
+
+            staffGrid.innerHTML = '';
+            if (filtered.length === 0) {
+                staffEmpty.classList.remove('hidden');
+                return;
+            }
+            staffEmpty.classList.add('hidden');
+
+            filtered.forEach(person => {
+                const badgeColor = person.category === 'Administration' 
+                    ? 'bg-navy-900 text-amber-400' 
+                    : person.category === 'Technical Staffs' 
+                        ? 'bg-amber-50 text-saffron-700 border border-amber-200' 
+                        : 'bg-slate-100 text-slate-700';
+				const initials = person.name.split(' ').slice(0, 2).map(n => n[0]).join('');
+                const avatarHtml = person.image
+                    ? `<img src="${person.image}" alt="${person.name}" onerror="this.outerHTML='<div class=\\'w-14 h-14 rounded-full bg-navy-900/10 text-navy-900 flex items-center justify-center font-extrabold text-sm flex-shrink-0\\'>${initials}</div>'" class="w-14 h-14 rounded-full object-cover object-top border-2 border-amber-400 shadow-sm flex-shrink-0">`
+                    : `<div class="w-14 h-14 rounded-full bg-navy-900/10 text-navy-900 flex items-center justify-center font-extrabold text-sm flex-shrink-0">${initials}</div>`;
+                const card = document.createElement('div');
+                card.className = 'bg-slate-50 hover:bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between';
+                card.innerHTML = `
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-3">
+							${avatarHtml}
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold ${badgeColor}">
+                                ${person.category}
+                            </span>
+                        </div>
+                        <h3 class="text-base font-extrabold text-navy-900">${person.name}</h3>
+                        <p class="text-xs font-bold text-saffron-700 mt-0.5">${person.designation}</p>
+                        <p class="text-xs text-slate-600 mt-2 flex items-center gap-1.5">
+                            <i data-lucide="briefcase" class="w-3.5 h-3.5 text-slate-400 flex-shrink-0"></i>
+                            <span>${person.department}</span>
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200/80 text-[11px] text-slate-500 flex items-center justify-between">
+                        <span>Qual: <strong class="text-slate-700">${person.qualification}</strong></span>
+                    </div>
+                `;
+                staffGrid.appendChild(card);
+            });
+            lucide.createIcons();
+        }
+
+        staffFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                staffFilterBtns.forEach(b => {
+                    b.classList.remove('active', 'bg-navy-900', 'text-white');
+                    b.classList.add('bg-slate-100', 'text-slate-700');
+                });
+                btn.classList.add('active', 'bg-navy-900', 'text-white');
+                btn.classList.remove('bg-slate-100', 'text-slate-700');
+                activeStaffCategory = btn.dataset.category;
+                renderStaff();
+            });
+        });
+
+        staffSearch.addEventListener('input', renderStaff);
+        renderStaff();
+
+        // ---------------------------------------------------------
+        // 5. LIVE NOTIFICATIONS & NOTICE BOARD WITH MODAL & ADMIN ADD
+        // ---------------------------------------------------------
+        let noticesData = [
+            {
+                id: 101,
+                title: "Admission Notice for Academic Session 2026–27 (Craftsmen Training Scheme)",
+                category: "Admission",
+                date: "18 Nov 2026",
+                ref: "No.F.11(2)/DI&C/ITI-ADM/2026/1142",
+                isNew: true,
+                body: "Online applications are invited from eligible permanent residents of Tripura (PRTC holders) for admission into 1-Year and 2-Year NCVT/SCVT trades at Government ITI, Jatanbari for the session 2026–27.\n\nKey Instructions:\n1. Candidates must register online at https://itiadmission.tripura.gov.in.\n2. Minimum age limit is 14 years as on 1st August 2026.\n3. After online submission, candidates must visit the nearest Govt. ITI for physical verification of original documents.\n4. Selected trainees must deposit Rs. 1,000/- as refundable caution money at the time of admission."
+            },
+            {
+                id: 102,
+                title: "Physical Document Verification Schedule at Govt. ITI Jatanbari Helpdesk",
+                category: "Admission",
+                date: "14 Nov 2026",
+                ref: "No.F.4(1)/ITI-JTB/VERF/2026/308",
+                isNew: true,
+                body: "All applicants who have completed online registration on the Tripura ITI Admission Portal are informed that the Document Verification Helpdesk at Government ITI, Jatanbari is operational on all working days from 10:30 AM to 4:30 PM.\n\nPlease bring original copies along with one self-attested set of: 8th/10th Marksheet, PRTC, Birth Certificate/Admit Card, Caste/PWD Certificate, and Aadhaar Card."
+            },
+            {
+                id: 103,
+                title: "AITT (All India Trade Test) Practical & CBT Hall Ticket Download Notice",
+                category: "Exam & Results",
+                date: "05 Nov 2026",
+                ref: "No.F.8(3)/ITI-JTB/EXAM/2026/289",
+                isNew: false,
+                body: "Regular and Supplementary trainees appearing for the upcoming NCVT All India Trade Test (AITT) are hereby instructed to collect their duly signed Hall Tickets from the Examination Cell of Govt. ITI Jatanbari after clearing all workshop dues and biometric attendance verification."
+            },
+            {
+                id: 104,
+                title: "Short Tender Notice for Procurement of Electrical & Electronics Workshop Consumables",
+                category: "Tenders/Circulars",
+                date: "28 Oct 2026",
+                ref: "No.F.6(9)/ITI-JTB/PUR/2026/251",
+                isNew: false,
+                body: "Sealed quotations are invited by the Principal, Government ITI Jatanbari, Gomati District from registered suppliers/dealers for supply of raw materials and workshop consumables for Electrician, Wireman, and Electronics Mechanic trades.\n\nQuotations must reach the office of the undersigned by 3:00 PM within 15 days from the date of issue."
+            },
+            {
+                id: 105,
+                title: "Campus Apprenticeship Mela (PMNAM) Registration for Pass-out Trainees",
+                category: "Tenders/Circulars",
+                date: "15 Oct 2026",
+                ref: "No.F.9(2)/ITI-JTB/NAPS/2026/219",
+                isNew: false,
+                body: "All NCVT/SCVT pass-out trainees of Govt. ITI Jatanbari across Fitter, Electrician, COPA, Mechanic Radio & TV, and Carpenter trades are encouraged to register on the National Apprenticeship Promotion Scheme (NAPS) portal (apprenticeshipindia.gov.in) to participate in the upcoming District Apprenticeship Mela."
+            },
+            {
+                id: 106,
+                title: "Internal Sessional Assessment & Workshop Attendance Mandatory Circular",
+                category: "Exam & Results",
+                date: "02 Oct 2026",
+                ref: "No.F.3(1)/ITI-JTB/TRG/2026/194",
+                isNew: false,
+                body: "As per DGT / NCVT guidelines, a minimum of 80% attendance in both Practical Workshop and Theory classes is mandatory for eligibility to appear in the final All India Trade Test (AITT). All trainees are advised to maintain regular attendance."
+            }
+        ];
+
+        const noticesList = document.getElementById('notices-list');
+        const noticeCountLabel = document.getElementById('notice-count-label');
+        const noticeFilterBtns = document.querySelectorAll('.notice-filter-btn');
+        let activeNoticeCat = 'All';
+
+        function renderNotices() {
+            const filtered = noticesData.filter(n => activeNoticeCat === 'All' || n.category === activeNoticeCat);
+            noticeCountLabel.textContent = `Showing ${filtered.length} notice${filtered.length === 1 ? '' : 's'}`;
+            noticesList.innerHTML = '';
+
+            filtered.forEach(notice => {
+                const catStyle = notice.category === 'Admission'
+                    ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+                    : notice.category === 'Exam & Results'
+                        ? 'bg-sky-50 text-sky-700 border-sky-200'
+                        : 'bg-amber-50 text-saffron-700 border-amber-200';
+
+                const item = document.createElement('div');
+                item.className = 'p-5 sm:p-6 hover:bg-slate-50/90 transition flex flex-col sm:flex-row sm:items-center justify-between gap-4 cursor-pointer group';
+                item.innerHTML = `
+                    <div class="space-y-1.5 max-w-3xl">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="px-2.5 py-0.5 rounded-md text-[11px] font-bold border ${catStyle}">
+                                ${notice.category}
+                            </span>
+                            <span class="text-xs text-slate-500 font-medium flex items-center gap-1">
+                                <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+                                ${notice.date}
+                            </span>
+                            ${notice.isNew ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-red-600 text-white uppercase tracking-wider">New</span>' : ''}
+                        </div>
+                        <h3 class="text-base font-bold text-navy-900 group-hover:text-saffron-700 transition">
+                            ${notice.title}
+                        </h3>
+                        <p class="text-xs text-slate-500 font-mono">${notice.ref}</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-100 group-hover:bg-navy-900 text-navy-900 group-hover:text-white text-xs font-bold transition">
+                            <span>View Circular</span>
+                            <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                        </span>
+                    </div>
+                `;
+                item.addEventListener('click', () => openNoticeModal(notice));
+                noticesList.appendChild(item);
+            });
+            lucide.createIcons();
+        }
+
+        noticeFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                noticeFilterBtns.forEach(b => {
+                    b.classList.remove('active', 'bg-navy-900', 'text-white');
+                    b.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+                });
+                btn.classList.add('active', 'bg-navy-900', 'text-white');
+                btn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+                activeNoticeCat = btn.dataset.noticeCat;
+                renderNotices();
+            });
+        });
+
+        renderNotices();
+
+        // Modal Handling
+        const noticeModal = document.getElementById('notice-modal');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+        const modalDoneBtn = document.getElementById('modal-done-btn');
+
+        function openNoticeModal(notice) {
+            document.getElementById('modal-category-badge').textContent = notice.category;
+            document.getElementById('modal-date').textContent = `Published: ${notice.date}`;
+            document.getElementById('modal-ref').textContent = `Ref / Memo No: ${notice.ref}`;
+            document.getElementById('modal-title').textContent = notice.title;
+            document.getElementById('modal-body').textContent = notice.body;
+            noticeModal.classList.remove('hidden');
+            noticeModal.classList.add('flex');
+        }
+
+        function closeNoticeModal() {
+            noticeModal.classList.add('hidden');
+            noticeModal.classList.remove('flex');
+        }
+
+        closeModalBtn.addEventListener('click', closeNoticeModal);
+        modalDoneBtn.addEventListener('click', closeNoticeModal);
+        noticeModal.addEventListener('click', (e) => {
+            if (e.target === noticeModal) closeNoticeModal();
+        });
+
+        // Admin Preview Add Notice Panel
+        const toggleAdminBtn = document.getElementById('toggle-admin-notice-btn');
+        const closeAdminPanelBtn = document.getElementById('close-admin-panel-btn');
+        const adminNoticePanel = document.getElementById('admin-notice-panel');
+        const addNoticeForm = document.getElementById('add-notice-form');
+
+        toggleAdminBtn.addEventListener('click', () => {
+            adminNoticePanel.classList.toggle('hidden');
+        });
+
+        closeAdminPanelBtn.addEventListener('click', () => {
+            adminNoticePanel.classList.add('hidden');
+        });
+
+        addNoticeForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const title = document.getElementById('notice-title-input').value.trim();
+            const category = document.getElementById('notice-category-input').value;
+            const ref = document.getElementById('notice-ref-input').value.trim() || `No.F.12/ITI-JTB/2026/${Math.floor(400 + Math.random() * 500)}`;
+            const body = document.getElementById('notice-body-input').value.trim();
+
+            if (!title || !body) return;
+
+            const today = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+            noticesData.unshift({
+                id: Date.now(),
+                title,
+                category,
+                date: today,
+                ref,
+                isNew: true,
+                body
+            });
+
+            addNoticeForm.reset();
+            adminNoticePanel.classList.add('hidden');
+            renderNotices();
+        });
+		// ---------------------------------------------------------
+        // 6. PHOTO GALLERY & LIGHTBOX
+        // ---------------------------------------------------------
+        const galleryData = [
+            {
+                src: "gallery/images.png",
+                title: "Govt. ITI Jatanbari Administrative Building",
+                category: "Campus",
+                description: "Main academic and administrative block at Jatanbari, Gomati District."
+            },
+            {
+                src: "gallery/electrical-lab.jpg",
+                title: "Electrician & Wireman Practical Workshop",
+                category: "Workshops",
+                description: "Trainees performing wiring and motor control practicals under instructor supervision."
+            },
+            {
+                src: "gallery/copa-lab.jpg",
+                title: "COPA & ICTSM Computer Laboratory",
+                category: "Workshops",
+                description: "Modern computer lab equipped for programming, networking, and digital literacy training."
+            },
+            {
+                src: "gallery/fitter-workshop.jpg",
+                title: "Fitter & Mechanical Engineering Workshop",
+                category: "Workshops",
+                description: "Hands-on bench fitting, lathe operation, and precision measurement training."
+            },
+            {
+                src: "gallery/event-1.jpg",
+                title: "Skill India & Kaushal Deekshant Samaroh",
+                category: "Events",
+                description: "Annual convocation and certificate distribution ceremony for pass-out trainees."
+            },
+            {
+                src: "gallery/event-2.jpg",
+                title: "Vishwakarma Puja Celebration on Campus",
+                category: "Events",
+                description: "Faculty, staff, and trainees celebrating Vishwakarma Puja at the institute workshops."
+            }
+        ];
+
+        const galleryGrid = document.getElementById('gallery-grid');
+        const galleryFilterBtns = document.querySelectorAll('.gallery-filter-btn');
+        const galleryLightbox = document.getElementById('gallery-lightbox');
+        const closeLightboxBtn = document.getElementById('close-lightbox-btn');
+        let activeGalleryCat = 'All';
+
+        function renderGallery() {
+            const filtered = galleryData.filter(item => activeGalleryCat === 'All' || item.category === activeGalleryCat);
+            galleryGrid.innerHTML = '';
+
+            filtered.forEach(photo => {
+                const card = document.createElement('div');
+                card.className = 'group relative bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition cursor-pointer';
+                card.innerHTML = `
+                    <div class="aspect-[16/10] overflow-hidden bg-navy-900/10">
+                        <img src="${photo.src}" alt="${photo.title}" 
+                             onerror="this.src='https://placehold.co/800x500/0f2c59/fbbf24?text=Add+${encodeURIComponent(photo.src)}'"
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4 bg-white">
+                        <div class="flex items-center justify-between gap-2 mb-1">
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-saffron-700 border border-amber-200">
+                                ${photo.category}
+                            </span>
+                            <span class="text-xs text-slate-400 group-hover:text-navy-900 flex items-center gap-1 transition">
+                                <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i>
+                                <span>Zoom</span>
+                            </span>
+                        </div>
+                        <h3 class="text-sm font-extrabold text-navy-900 group-hover:text-saffron-700 transition">${photo.title}</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-2">${photo.description}</p>
+                    </div>
+                `;
+                card.addEventListener('click', () => openLightbox(photo));
+                galleryGrid.appendChild(card);
+            });
+            lucide.createIcons();
+        }
+
+        function openLightbox(photo) {
+            document.getElementById('lightbox-img').src = photo.src;
+            document.getElementById('lightbox-img').alt = photo.title;
+            document.getElementById('lightbox-title').textContent = photo.title;
+            document.getElementById('lightbox-desc').textContent = photo.description;
+            document.getElementById('lightbox-cat').textContent = photo.category;
+            galleryLightbox.classList.remove('hidden');
+            galleryLightbox.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            galleryLightbox.classList.add('hidden');
+            galleryLightbox.classList.remove('flex');
+        }
+
+        closeLightboxBtn.addEventListener('click', closeLightbox);
+        galleryLightbox.addEventListener('click', (e) => {
+            if (e.target === galleryLightbox) closeLightbox();
+        });
+
+        galleryFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                galleryFilterBtns.forEach(b => {
+                    b.classList.remove('active', 'bg-navy-900', 'text-white');
+                    b.classList.add('bg-slate-100', 'text-slate-700');
+                });
+                btn.classList.add('active', 'bg-navy-900', 'text-white');
+                btn.classList.remove('bg-slate-100', 'text-slate-700');
+                activeGalleryCat = btn.dataset.galleryCat;
+                renderGallery();
+            });
+        });
+
+        renderGallery();
+    </script>
+</body>
+</html>
